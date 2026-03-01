@@ -48,6 +48,22 @@ Data is fetched from the API, processed using Python, stored in SQL tables, anal
 - Cricbuzz LiveStats successfully integrates real-time API data with SQL-based analytics to create a comprehensive cricket dashboard.
 - The project demonstrates strong skills in API integration, database design, SQL analytics, Streamlit web development, and modular Python programming.
 
+## Approach
+cricbuzz-livestats/ <br>
+├── app.py <br>
+├── requirements.txt <br> 
+├── README.md <br>
+├── pages/ <br>
+         ├── home.py <br>
+         │ ├── live_matches.py <br>
+         │ ├── top_stats.py <br>
+         │ ├── sql_queries.py <br>
+         │ └── crud_operations.py <br>
+├── utils/ <br>
+│   └── db_connection.py <br>
+└── notebooks/ <br>
+   - └── data_fetching.ipynb
+
 
 
 
