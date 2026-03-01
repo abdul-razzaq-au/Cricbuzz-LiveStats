@@ -8,7 +8,5 @@
 - pandas
 - requests
 - psycopg2
-- re
-- datetime
 
 # Note - Also import all 5 pages in the main app.py file
