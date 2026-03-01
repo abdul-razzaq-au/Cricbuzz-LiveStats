@@ -49,20 +49,27 @@ Data is fetched from the API, processed using Python, stored in SQL tables, anal
 - The project demonstrates strong skills in API integration, database design, SQL analytics, Streamlit web development, and modular Python programming.
 
 ## Approach
-cricbuzz-livestats/ <br>
-├── app.py <br>
-├── requirements.txt <br> 
-├── README.md <br>
-├── pages/ <br>
-         ├── home.py <br>
-         │ ├── live_matches.py <br>
-         │ ├── top_stats.py <br>
-         │ ├── sql_queries.py <br>
-         │ └── crud_operations.py <br>
-├── utils/ <br>
-│   └── db_connection.py <br>
-└── notebooks/ <br>
-   - └── data_fetching.ipynb
+<pre> cricbuzz_livestats/
+│
+├── app.py                 # Main entry point for the Streamlit app
+├── requirements.txt       # Required Python packages
+├── README.md              # Project overview and setup instructions
+│
+├── pages/                 # Contains individual Streamlit pages
+│   ├── home.py            # Overview and About page
+│   ├── live.py            # Displays live match data
+│   ├── playerstat.py      # Batting/bowling stats
+│   ├── sqlquery.py        # SQL query interface
+│   └── crudops.py         # CRUD on player stats
+│
+├── utils/
+│   └── db_connection.py   # Database connection logic
+│
+└── notebooks/             # Multiple Notebooks for API testing, data fetching, practice, etc.
+    └── Untitled-1.ipynb 
+    └── demo.ipynb
+    └── rnd.ipynb
+<pre>
 
 
 
