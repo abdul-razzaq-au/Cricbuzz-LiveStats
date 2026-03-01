@@ -24,14 +24,14 @@ Data is fetched from the API, processed using Python, stored in SQL tables, anal
 
 - CRUD Operations Page: Add, View player records, Update, and Delete.
 
-#### Key Business Use Cases
+### Key Business Use Cases
 • Sports Media & Broadcasting
 • Fantasy Cricket Platforms
 • Cricket Analytics Firms
 • Educational Institutions
 • Sports Betting & Prediction Analysis
 
-#### Challenges Faced
+### Challenges Faced
 • Handling nested JSON data from API.
 • Designing optimized relational schema.
 • Writing complex analytical SQL queries.
@@ -42,6 +42,7 @@ Data is fetched from the API, processed using Python, stored in SQL tables, anal
 - Install and Import requirements in each code file mentioned in the requirements.txt file.
 - Use your own api keys to fetch data as the keys in the code files are already used and exhausted.
 - For SQL analytics you can comment down calling question functions from sqlquery.py file after getting data once. In the uploaded file, these may already be commented down.
+- Create a database prior to starting.
 
 ## Conclusion
 - Cricbuzz LiveStats successfully integrates real-time API data with SQL-based analytics to create a comprehensive cricket dashboard.
